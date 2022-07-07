@@ -22,6 +22,11 @@ header.container {
   border-color: #ed0000;
   background-color: #ed0000;
 }
+.button.is-primary:hover {
+  border-color: #130997;
+  background-color: #130997;
+}
+
 .box {
   background-color: rgba(255, 255, 255, 0.2);
 }
