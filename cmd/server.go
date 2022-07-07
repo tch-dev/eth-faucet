@@ -25,8 +25,8 @@ var (
 	queueCapFlag = flag.Int("queuecap", 100, "Maximum transactions waiting to be sent")
 	versionFlag  = flag.Bool("version", false, "Print version number")
 
-	payoutFlag   = flag.Int("faucet.amount", 1, "Number of Ethers to transfer per user request")
-	intervalFlag = flag.Int("faucet.minutes", 1440, "Number of minutes to wait between funding rounds")
+	payoutFlag   = flag.Int("faucet.amount", 2, "Number of Ethers to transfer per user request")
+	intervalFlag = flag.Int("faucet.minutes", 14400, "Number of minutes to wait between funding rounds")
 	netnameFlag  = flag.String("faucet.name", "testnet", "Network name to display on the frontend")
 
 	keyJSONFlag  = flag.String("wallet.keyjson", os.Getenv("KEYSTORE"), "Keystore file to fund user requests with")
