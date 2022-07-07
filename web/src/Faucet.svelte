@@ -51,16 +51,16 @@
 </script>
 
 <main>
-  <section class="hero is-info is-fullheight">
+  <section class="hero is-info is-fullheight" id="jfinchain-area">
     <div class="hero-head">
       <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item" href=".">
-              <span class="icon">
-                <i class="fa fa-bath" />
+        <header class="container">
+          <div class="logo-title">
+            <a href=".">
+              <span class="logo">
+                <img src="/JFINChain-logo.svg" alt="" />
               </span>
-              <span><b>ETH Faucet</b></span>
+              <span class="faucet-txt"> Faucet</span>
             </a>
           </div>
           <div id="navbarMenu" class="navbar-menu">
@@ -78,7 +78,7 @@
               </span>
             </div>
           </div>
-        </div>
+        </header>
       </nav>
     </div>
 

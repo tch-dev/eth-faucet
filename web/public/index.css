@@ -1,0 +1,41 @@
+body {
+  background: #000;
+}
+#jfinchain-area.hero.is-info {
+  background: url(/jbg.png);
+  background-repeat: no-repeat;
+  background-position: 80% 0;
+  background-size: 30%;
+}
+header.container {
+  padding: 24px 0;
+}
+.logo-title > a {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  margin-right: 24px;
+}
+.button.is-primary {
+  border-color: #ed0000;
+  background-color: #ed0000;
+}
+.box {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.input {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.input:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+.faucet-txt {
+  opacity: 0.5;
+}
