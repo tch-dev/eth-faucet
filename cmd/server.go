@@ -25,7 +25,7 @@ var (
 	queueCapFlag = flag.Int("queuecap", 100, "Maximum transactions waiting to be sent")
 	versionFlag  = flag.Bool("version", false, "Print version number")
 
-	payoutFlag   = flag.Int("faucet.amount", 2, "Number of Ethers to transfer per user request")
+	payoutFlag   = flag.String("faucet.amount", "0.01", "Number of Ethers to transfer per user request")
 	intervalFlag = flag.Int("faucet.minutes", 14400, "Number of minutes to wait between funding rounds")
 	netnameFlag  = flag.String("faucet.name", "testnet", "Network name to display on the frontend")
 
@@ -83,3 +83,4 @@ func getPrivateKeyFromFlags() (*ecdsa.PrivateKey, error) {
 
 	return chain.DecryptKeyfile(keyfile, strings.TrimRight(string(password), "\r\n"))
 }
+
